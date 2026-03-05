@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Django / Flask / Scrapy
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+.scrapy
+
+# Notebooks
+.ipynb_checkpoints
+
+# Environments & Secrets
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+vertex_config.json
+secrets.toml
+*.json
+
+# Large Model Files (Upload to HF directly)
+legal_bert_finetuned_risk/
+*.safetensors
+*.bin
+*.h5
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+
+# Diagnostic/Log Files
+diag_output*.txt
+
+# Cursor / AI
+.cursorignore
+.cursorindexingignore
+__marimo__
+.abstra/
+.mypy_cache/
+.ruff_cache/

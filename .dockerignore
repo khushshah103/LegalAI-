@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+data/
+notebooks/
+test_*.py
+diag_output*.txt
+.git/
+.gitignore
+venv/
